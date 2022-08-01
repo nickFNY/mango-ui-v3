@@ -155,6 +155,7 @@ function App({ Component, pageProps }) {
       new SlopeWalletAdapter(),
       new BitpieWalletAdapter(),
       new HuobiWalletAdapter(),
+      new BackpackWalletAdapter(),
     ],
     []
   )
