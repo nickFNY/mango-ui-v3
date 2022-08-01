@@ -30,6 +30,7 @@ import { BrowserTracing } from '@sentry/tracing'
 
 import { WalletProvider, WalletListener } from 'components/WalletAdapter'
 import {
+  BackpackWalletAdapter,
   ExodusWalletAdapter,
   PhantomWalletAdapter,
   SolflareWalletAdapter,
